@@ -8,7 +8,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.0.1'
+        classpath 'com.android.tools.build:gradle:8.13.0'
     }
 }
 
@@ -23,10 +23,10 @@ apply plugin: 'com.android.library'
 
 android {
     namespace "co.creativemind.device_information"
-    compileSdkVersion 33
+    compileSdkVersion 36
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 24
     }
     lintOptions {
         disable 'InvalidPackage'
